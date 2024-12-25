@@ -94,6 +94,9 @@ body{
    border-radius:15px ;
    background: #e0e0e0de;
 }
+.span-1, .span-2, .span-3{
+   margin-right: 20px;
+}
 .list{
    display: flex;
    flex-wrap: wrap;
