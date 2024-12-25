@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Todo List</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main-container">
+      <!-- HEADING -->
+      <div class="container container-1">
+         <h1 class="h1">To-Do List</h1>
+      </div>
+      <!-- INPUT FIELDS -->
+      <div class="container container-2 inputs">
+         <input type="text" placeholder="Task To-Do" class="js-name-input task input" onkeydown="if(event.key == 'Enter'){addTask();}">
+         <input type="time" class="js-time-input taskTime input" onkeydown="if(event.key == 'Enter'){addTask();}">
+         <input type="date" class="js-date-input taskDate input" onkeydown="if(event.key == 'Enter'){addTask();}">
+         <button class="btn btn-1 js-btn" onclick="addTask();">Add</button>
+         <p class="js-error-message error error-msg"></p>
+      </div>
+      <!-- TASK MESSAGE -->
+      <div class="container container-3 render renderTask">
+         <!-- JAVA-SCRIPT FILE -->
+      </div>
+   </div>
+   <script src="main.js"></script>
+</body>
+</html>
