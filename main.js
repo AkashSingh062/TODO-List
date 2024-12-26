@@ -1,5 +1,24 @@
 const todoList = JSON.parse(localStorage.getItem('todoList')) || [];
-
+//MODES 
+const getDark = () =>{
+   document.body.classList.add('dark');
+   document.querySelector('h1').classList.add('dark');
+};
+const getLight = () =>{
+   document.body.classList.remove('dark');
+   document.querySelector('h1').classList.remove('dark');
+};
+let dark = false;
+const clicked = document.querySelector('.js-dark');
+clicked.addEventListener('click', () => {
+   if(!dark){
+      getDark();
+      dark = true;
+   }else{
+      getLight();
+      dark = false;
+   }
+});
 // ADDING TASK LOCALLY
 function saveToLocal() {
    localStorage.setItem('todoList', JSON.stringify(todoList));
