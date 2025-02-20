@@ -1,39 +1,55 @@
-# To-Do List
+# ✅ To-Do List - Organize Your Day Efficiently  
 
-## Description
-The **To-Do List** is a simple web-based application that allows users to manage their daily tasks. Users can add tasks with specific times and dates, and the tasks will be displayed in a list format.
+## 🌟 Overview  
+The **To-Do List** is a **simple yet powerful** web-based application designed to help you **stay organized and productive**. Add tasks with specific **time and date**, switch between **light & dark themes**, and manage your daily schedule effortlessly! 📅✨  
 
-## Features
-- Add tasks with a description, time, and date.
-- Display tasks in a list format.
-- Toggle between light and dark themes.
-- Clear input fields after adding a task.
-- Display error messages for invalid inputs.
+---
 
-## Technologies Used
-- **HTML** - Structure of the application.
-- **CSS** - Styling and UI design.
-- **JavaScript** - Handles the application logic.
+## ⚡ Key Features  
+✅ **Task Management** – Add tasks with a description, time, and date.  
+✅ **Clean & Organized Display** – View tasks in a structured list format.  
+✅ **Theme Toggle** – Switch between **light & dark modes** for a better experience.  
+✅ **Auto-Clear Inputs** – Input fields reset automatically after adding a task.  
+✅ **Error Handling** – Displays alerts for missing or invalid inputs.  
 
-## How to Use
-1. Open the `index.html` file in a web browser.
-2. Enter a task description, time, and date in the input fields.
-3. Click the "Add" button or press "Enter" to add the task to the list.
-4. The task will be displayed in the task list.
-5. Use the checkbox to toggle between light and dark themes.
+---
 
-## File Structure
-- `index.html` - The main HTML file that contains the structure of the application.
-- `style.css` - The CSS file that styles the application.
-- `main.js` - The JavaScript file that contains the application logic.
+## 🛠 Built With  
+🖥️ **HTML** – Provides the structure for the application.  
+🎨 **CSS** – Enhances design, layout, and theme switching.  
+⚡ **JavaScript** – Handles the logic for adding and managing tasks.  
 
-## Future Improvements
-- Add the ability to edit and delete tasks.
-- Implement task prioritization.
-- Add notifications for upcoming tasks.
+---
 
-## Author
-Developed by **Akash**.
+## 🔥 How to Use  
+1️⃣ Open the `index.html` file in your browser.  
+2️⃣ Enter a **task description, time, and date** in the input fields.  
+3️⃣ Click the **"Add"** button or press **"Enter"** to add the task.  
+4️⃣ The task will appear in the list below.  
+5️⃣ Use the **checkbox toggle** to switch between **light and dark mode**.  
 
-## License
-This project is open-source and free to use.
+---
+
+## 📁 File Structure  
+📌 `index.html` – The main file defining the layout.  
+🎨 `style.css` – Stylesheet for UI/UX design and theme toggle.  
+⚡ `main.js` – JavaScript file that powers task management.  
+
+---
+
+## 🚀 Planned Enhancements  
+✨ **Edit & Delete Tasks** – Modify or remove tasks easily.  
+✨ **Task Prioritization** – Categorize tasks based on importance.  
+✨ **Reminders & Notifications** – Get alerts for upcoming tasks.  
+
+---
+
+## 👨‍💻 Developed By  
+💡 Created with passion by **Akash**  
+
+---
+
+## 📜 License  
+🔓 This project is **open-source** and free to use!  
+
+🚀 Get started and **boost your productivity today!** ✅📌  
